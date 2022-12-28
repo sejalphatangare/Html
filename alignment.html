@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alignment</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: 'Barlow', sans-serif;
+			font-size: large;
+			background-color: aqua;
+		}
+
+		.container {
+			width: 999px;
+			border: 5px solid rgb(9, 91, 65);
+			margin: 25px auto;
+			padding: 25px 25px;
+			background-color: rgba(215, 158, 242, 0.914);
+
+		}
+
+		.item {
+			border: 2px solid green;
+			margin: 25px 25px;
+			padding: 12px 5px;
+			padding: 12px 5px;
+			background-color: rgb(195, 241, 131);
+
+		}
+
+		#fruits {
+			float: left;
+			width: 44%;
+		}
+
+		#computer {
+			float: right;
+			width: 45%;
+		}
+
+		#stationary {
+			/* float: left; */
+			width: 94.85%;
+			clear: both;
+		}
+
+		p,
+		h3 {
+			/* text-align: right;
+			text-align: left;
+			text-align: center; */
+			text-align: justify;
+		}
+
+		h1 {
+			width: auto;
+			margin: 25px;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>Welcome to my store</h1>
+
+		<div id="fruits" class="item">
+			<h3>Fruits</h3>
+			<p id="fruitspara" class="para">
+				this is a fruits para Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi minima,
+				temporibus fugit ea similique fuga nesciunt aperiam itaque nam mollitia earum nemo sed nostrum velit
+				ipsa soluta ipsam officia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, quas
+				laudantium quam qui adipisci, aut veniam accusantium, maiores excepturi deserunt modi! Reiciendis
+				asperiores soluta quis delectus quidem doloribus porro dolor velit molestiae placeat. Cumque.
+			</p>
+		</div>
+		<div id="computer" class="item">
+			<h3>Computers</h3>
+			<p id="computerpara" class="para">
+				this is a computer para Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum qui
+				voluptate, sed alias assumenda minima quibusdam quis quae nihil aliquam eligendi ex dolorem quo eveniet
+				doloremque adipisci nam, eius Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ullam
+				ipsam assumenda. Sequi recusandae animi repellat officia sed amet, incidunt maxime eius aliquam iure
+				quos explicabo consequuntur vitae facilis perspiciatis provident aut similique quidem!</p>
+		</div>
+		<div id="stationary" class="item">
+			<h3>Stationary</h3>
+			<p id="stationarypara" class="para">
+				this is a stationary para Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione unde
+				rerum fuga sunt aspernatur expedita, error itaque quod vero repudiandae ab vel adipisci animi
+				voluptatibus pariatur atque consequuntur accusamus.</p>
+		</div>
+		<div id="glasses" class="item">
+			<h3>Glasses</h3>
+			<p id="glassespara" class="para">
+				this is a glasses para Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere ratione unde
+				rerum fuga sunt aspernatur expedita, error itaque quod vero repudiandae ab vel adipisci animi
+				voluptatibus pariatur atque consequuntur accusamus.</p>
+		</div>
+	</div>
+
+</body>
+
+</html>
